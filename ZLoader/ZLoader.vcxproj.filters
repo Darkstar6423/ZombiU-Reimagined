@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\functionhooks">
+      <UniqueIdentifier>{bc7035d1-0590-461d-b63b-933e56afa0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\functionhooks">
+      <UniqueIdentifier>{4edc2238-f80c-4685-9440-2cd7e0a531d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModLoader">
+      <UniqueIdentifier>{e7ce0d2e-5e0d-4584-9fea-4c1fe0a897a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModLoader">
+      <UniqueIdentifier>{e9263788-43b6-494c-a729-b9a6142ac760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FunctionOverrides">
+      <UniqueIdentifier>{3d532de5-b581-487c-a0f7-a8d39db3c79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunctionOverrides">
+      <UniqueIdentifier>{bca6007e-ec36-4ed7-96ed-48c788e8ac19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modFunctions">
+      <UniqueIdentifier>{3d1a5ef8-1ec6-4e38-b6f5-2d7821dbbaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modFunctions">
+      <UniqueIdentifier>{0ba8ebf6-a2f0-4fbb-ac9e-e03fac8aa693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectX">
+      <UniqueIdentifier>{4f67e343-149a-408a-98a9-db7eff2fb7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX">
+      <UniqueIdentifier>{6e5cde5c-4c5e-4a47-a119-f7a39ca95bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DInput">
+      <UniqueIdentifier>{3d609a13-aa20-4125-93ad-bcc1b2aa2995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DInput">
+      <UniqueIdentifier>{cfca6b18-f6a5-4fce-865d-cc2c77a165e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{b6382815-c761-4da5-a5f7-ae9c67190798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{aed34a03-6a42-4994-9b54-bc6e23ccd130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{3e652d7a-b8c1-40c4-85ef-6b1f853cffab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{71e79713-87dd-42a1-8b60-7fc8310c5fd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnPlayerDamage.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OnZombieDamage.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="functionhooks.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OnPlayerTick.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="ModLoader.h">
+      <Filter>Header Files\ModLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="OnWeaponFire.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OnWeaponSwitch.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OnScoreGiven.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="canMinimapAutoPing.h">
+      <Filter>Header Files\FunctionOverrides</Filter>
+    </ClInclude>
+    <ClInclude Include="hookparameter.h">
+      <Filter>Header Files\functionhooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideParameters.h">
+      <Filter>Header Files\FunctionOverrides</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionOverrides.h">
+      <Filter>Header Files\FunctionOverrides</Filter>
+    </ClInclude>
+    <ClInclude Include="canMinimapManualPing.h">
+      <Filter>Header Files\FunctionOverrides</Filter>
+    </ClInclude>
+    <ClInclude Include="modFunctions.h">
+      <Filter>Header Files\modFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawText.h">
+      <Filter>Header Files\modFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombiStructs.h">
+      <Filter>Header Files\modFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryFunctions.h">
+      <Filter>Header Files\modFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXMain.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleGUI.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DInput8Main.h">
+      <Filter>Header Files\DInput</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonBindIntercept.h">
+      <Filter>Header Files\FunctionOverrides</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCommand.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnZombieDamage.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OnPlayerTick.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ModLoader.cpp">
+      <Filter>Source Files\ModLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="OnWeaponFire.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OnPlayerDamage.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OnWeaponSwitch.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OnScoreGiven.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="canMinimapAutoPing.cpp">
+      <Filter>Source Files\FunctionOverrides</Filter>
+    </ClCompile>
+    <ClCompile Include="hookparameter.cpp">
+      <Filter>Source Files\functionhooks</Filter>
+    </ClCompile>
+    <ClCompile Include="canMinimapManualPing.cpp">
+      <Filter>Source Files\FunctionOverrides</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawText.cpp">
+      <Filter>Source Files\modFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombiStructs.cpp">
+      <Filter>Source Files\modFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryFunctions.cpp">
+      <Filter>Source Files\modFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXMain.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleGUI.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DInput8Main.cpp">
+      <Filter>Source Files\DInput</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonBindIntercept.cpp">
+      <Filter>Source Files\FunctionOverrides</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCommand.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
