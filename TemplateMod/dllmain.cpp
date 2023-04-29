@@ -137,7 +137,6 @@ void OnWeaponSwitch(DWORD Weapon, int* type)
 
 void OnScoreGiven(int* ScoreEvent, int* Score, int* CurrentScore)
 {
-	*Score *=0.5;
 }
 
 
